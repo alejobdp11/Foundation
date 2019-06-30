@@ -1,0 +1,60 @@
+body{
+  background: url(../img/fondo.jpg);
+
+}
+.total{
+  background: rgba(3, 89, 139, 0.5);
+}
+div {
+  color: black;
+  padding: 2px;
+}
+.portada1{
+  border-right: solid 1px;
+  color: white;
+}
+.separa{
+  border-bottom: solid 1px;
+  color: white;
+}
+.lateral{
+  border-right: solid 1px;
+  padding: 2px;
+  color: white;
+  background: rgba(157, 169, 176, 0.9);
+  
+}
+.enlaces{
+  margin: auto;
+  padding: 10px;
+  border: solid 1px;
+  color: white;
+}
+
+.titulo{
+  color: white;
+
+}
+.titulo1{
+  background: rgba(120, 151, 168, 0.9);
+  border-radius: 10px,4px,4px,4px;
+  margin: 2px;
+
+}
+.titulo1 p{
+  text-align: justify;
+}
+.img-titulo{
+  width: 50%;
+}
+.favori{
+  color: white;
+}
+@media (max-width: 770px) {
+.portada1{
+  text-align: center;
+}
+.portada1 p{
+  text-align: center;
+}
+}
